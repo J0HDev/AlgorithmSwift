@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A8A2152B2237509900C02BC5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A2152A2237509900C02BC5 /* main.swift */; };
 		A8A215332237522100C02BC5 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A215322237522100C02BC5 /* TwoSum.swift */; };
+		A8C0E0BB22389BBF00C0FE87 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C0E0BA22389BBF00C0FE87 /* ReverseInteger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		A8A215272237509900C02BC5 /* AlgorithmSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8A2152A2237509900C02BC5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A8A215322237522100C02BC5 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		A8C0E0BA22389BBF00C0FE87 /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				A8A21531223750AB00C02BC5 /* 1. Two Sum */,
+				A8C0E0B922389B9900C0FE87 /* 2. Reverse Integer */,
 				A8A2152A2237509900C02BC5 /* main.swift */,
 			);
 			path = AlgorithmSwift;
@@ -71,6 +74,14 @@
 				A8A215322237522100C02BC5 /* TwoSum.swift */,
 			);
 			path = "1. Two Sum";
+			sourceTree = "<group>";
+		};
+		A8C0E0B922389B9900C0FE87 /* 2. Reverse Integer */ = {
+			isa = PBXGroup;
+			children = (
+				A8C0E0BA22389BBF00C0FE87 /* ReverseInteger.swift */,
+			);
+			path = "2. Reverse Integer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +143,7 @@
 			files = (
 				A8A215332237522100C02BC5 /* TwoSum.swift in Sources */,
 				A8A2152B2237509900C02BC5 /* main.swift in Sources */,
+				A8C0E0BB22389BBF00C0FE87 /* ReverseInteger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

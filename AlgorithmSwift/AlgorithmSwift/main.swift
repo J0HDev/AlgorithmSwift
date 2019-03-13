@@ -9,4 +9,7 @@
 import Foundation
 
 // 1. two sum
-print(twoSum([3, 2, 4], 6))
+twoSum([3, 2, 4], 6)
+
+// 2.
+reverse(1234567893)
