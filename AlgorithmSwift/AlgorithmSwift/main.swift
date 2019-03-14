@@ -13,3 +13,6 @@ twoSum([3, 2, 4], 6)
 
 // 2.
 reverse(1234567893)
+
+// 3.
+isPalindromeBetter(1003001)
