@@ -16,3 +16,6 @@ reverse(1234567893)
 
 // 3.
 isPalindromeBetter(1003001)
+
+// 4.
+romanToInt("MCMXCIV")
