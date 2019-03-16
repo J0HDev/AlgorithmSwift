@@ -9,13 +9,16 @@
 import Foundation
 
 // 1. two sum
-twoSum([3, 2, 4], 6)
+//twoSum([3, 2, 4], 6)
+//
+//// 2.
+//reverse(1234567893)
+//
+//// 3.
+//isPalindromeBetter(1003001)
+//
+//// 4.
+//romanToInt("MCMXCIV")
 
-// 2.
-reverse(1234567893)
-
-// 3.
-isPalindromeBetter(1003001)
-
-// 4.
-romanToInt("MCMXCIV")
+// 5.
+print(longestCommonPrefixV2(["flower","flow","flight"]))
