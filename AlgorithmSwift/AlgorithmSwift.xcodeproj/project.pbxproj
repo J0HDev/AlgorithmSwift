@@ -13,6 +13,7 @@
 		A8A215332237522100C02BC5 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A215322237522100C02BC5 /* TwoSum.swift */; };
 		A8BEA7572239EADA00E2F990 /* PalindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BEA7562239EADA00E2F990 /* PalindromeNumber.swift */; };
 		A8C0E0BB22389BBF00C0FE87 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C0E0BA22389BBF00C0FE87 /* ReverseInteger.swift */; };
+		B2C19C76223DEBF500074B15 /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C19C75223DEBF500074B15 /* ValidParentheses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		A8A215322237522100C02BC5 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		A8BEA7562239EADA00E2F990 /* PalindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumber.swift; sourceTree = "<group>"; };
 		A8C0E0BA22389BBF00C0FE87 /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
+		B2C19C75223DEBF500074B15 /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				A8BEA7552239EAB300E2F990 /* 3. Palindrome Number */,
 				A823A1FF223B409400B67A08 /* 4.Roman to Integer */,
 				A823A2BE223CC5A000B67A08 /* 5. Longest Common Prefix */,
+				B2C19C74223DEBDC00074B15 /* 6. Valid Parentheses */,
 				A8A2152A2237509900C02BC5 /* main.swift */,
 			);
 			path = AlgorithmSwift;
@@ -115,6 +118,14 @@
 				A8C0E0BA22389BBF00C0FE87 /* ReverseInteger.swift */,
 			);
 			path = "2. Reverse Integer";
+			sourceTree = "<group>";
+		};
+		B2C19C74223DEBDC00074B15 /* 6. Valid Parentheses */ = {
+			isa = PBXGroup;
+			children = (
+				B2C19C75223DEBF500074B15 /* ValidParentheses.swift */,
+			);
+			path = "6. Valid Parentheses";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +191,7 @@
 				A8A2152B2237509900C02BC5 /* main.swift in Sources */,
 				A8C0E0BB22389BBF00C0FE87 /* ReverseInteger.swift in Sources */,
 				A823A201223B40BD00B67A08 /* RomanToInteger.swift in Sources */,
+				B2C19C76223DEBF500074B15 /* ValidParentheses.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +318,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68MBG4HJ8F;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -316,6 +329,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68MBG4HJ8F;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
