@@ -11,7 +11,7 @@ import Foundation
 // 1. two sum
 twoSum([3, 2, 4], 6)
 
-// 2.
+//
 reverse(1234567893)
 
 // 3.
@@ -21,7 +21,39 @@ isPalindromeBetter(1003001)
 romanToInt("MCMXCIV")
 
 // 5.
-print(longestCommonPrefixV2(["flower","flow","flight"]))
+longestCommonPrefixV2(["flower","flow","flight"])
 
 // 6
 isValid("[]()")
+
+// 7
+let l1 = ListNode(1)
+let l2 = ListNode(3)
+let l3 = ListNode(5)
+let l4 = ListNode(7)
+let l5 = ListNode(9)
+
+let l6 = ListNode(2)
+let l7 = ListNode(4)
+let l8 = ListNode(6)
+let l9 = ListNode(8)
+let l10 = ListNode(10)
+let l11 = ListNode(11)
+
+l1.next = l2
+l2.next = l3
+l3.next = l4
+l4.next = l5
+
+l6.next = l7
+l7.next = l8
+l8.next = l9
+l9.next = l10
+l10.next = l11
+
+var sorted = mergeTwoLists(l1, l6)
+while sorted != nil {
+    print(sorted?.val ?? -1)
+    sorted = sorted?.next
+}
+
