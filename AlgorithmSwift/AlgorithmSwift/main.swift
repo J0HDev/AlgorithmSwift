@@ -52,8 +52,12 @@ l9.next = l10
 l10.next = l11
 
 var sorted = mergeTwoLists(l1, l6)
-while sorted != nil {
-    print(sorted?.val ?? -1)
-    sorted = sorted?.next
-}
+//while sorted != nil {
+//    print(sorted?.val ?? -1)
+//    sorted = sorted?.next
+//}
 
+// 8.
+var arr = [1,2,2,1]
+removeElement(&arr, 3)
+//print(arr)
