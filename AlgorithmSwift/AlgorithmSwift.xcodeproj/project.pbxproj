@@ -12,6 +12,7 @@
 		A823A2C3223F321700B67A08 /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = A823A2C2223F321700B67A08 /* MergeTwoSortedLists.swift */; };
 		A881CD3A2241D61E00A3225B /* ImplementStrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = A881CD392241D61E00A3225B /* ImplementStrStr.swift */; };
 		A88C600E22429549006D1E4F /* SearchInsertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C600D22429549006D1E4F /* SearchInsertPosition.swift */; };
+		A88C601522439687006D1E4F /*  LengthofLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C601422439687006D1E4F /*  LengthofLastWord.swift */; };
 		A89D07DA224082160094EFA3 /* RemoveElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D07D9224082160094EFA3 /* RemoveElement.swift */; };
 		A8A2152B2237509900C02BC5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A2152A2237509900C02BC5 /* main.swift */; };
 		A8A215332237522100C02BC5 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A215322237522100C02BC5 /* TwoSum.swift */; };
@@ -38,6 +39,7 @@
 		A823A2C2223F321700B67A08 /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
 		A881CD392241D61E00A3225B /* ImplementStrStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementStrStr.swift; sourceTree = "<group>"; };
 		A88C600D22429549006D1E4F /* SearchInsertPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInsertPosition.swift; sourceTree = "<group>"; };
+		A88C601422439687006D1E4F /*  LengthofLastWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " LengthofLastWord.swift"; sourceTree = "<group>"; };
 		A89D07D9224082160094EFA3 /* RemoveElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveElement.swift; sourceTree = "<group>"; };
 		A8A215272237509900C02BC5 /* AlgorithmSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8A2152A2237509900C02BC5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -98,6 +100,14 @@
 			path = "10. Search Insert Position";
 			sourceTree = "<group>";
 		};
+		A88C60132243966D006D1E4F /* 11. Length of Last Word */ = {
+			isa = PBXGroup;
+			children = (
+				A88C601422439687006D1E4F /*  LengthofLastWord.swift */,
+			);
+			path = "11. Length of Last Word";
+			sourceTree = "<group>";
+		};
 		A89D07D7224081CC0094EFA3 /* 8. Remove Element */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +145,7 @@
 				A89D07D7224081CC0094EFA3 /* 8. Remove Element */,
 				A881CD382241D5F700A3225B /* 9. Implement strStr() */,
 				A88C600C22429534006D1E4F /* 10. Search Insert Position */,
+				A88C60132243966D006D1E4F /* 11. Length of Last Word */,
 				A8A2152A2237509900C02BC5 /* main.swift */,
 			);
 			path = AlgorithmSwift;
@@ -240,6 +251,7 @@
 				A823A2C3223F321700B67A08 /* MergeTwoSortedLists.swift in Sources */,
 				B2C19C76223DEBF500074B15 /* ValidParentheses.swift in Sources */,
 				A881CD3A2241D61E00A3225B /* ImplementStrStr.swift in Sources */,
+				A88C601522439687006D1E4F /*  LengthofLastWord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

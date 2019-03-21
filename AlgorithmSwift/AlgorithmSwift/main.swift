@@ -67,3 +67,6 @@ import Foundation
 
 // 10.
 //searchInsert([1,3,5,6], 7);
+
+// 11
+lengthOfLastWordV2("a ")
