@@ -69,4 +69,22 @@ import Foundation
 //searchInsert([1,3,5,6], 7);
 
 // 11
-lengthOfLastWordV2("a ")
+//lengthOfLastWordV2("a ")
+
+
+// 12
+//let l1 = ListNode(1)
+//let l2 = ListNode(2)
+//let l3 = ListNode(2)
+//let l4 = ListNode(3)
+//let l5 = ListNode(4)
+//l1.next = l2
+//l2.next = l3
+//l3.next = l4
+//l4.next = l5
+//
+//var node = deleteDuplicates(l1)
+//while node != nil {
+//    print(node?.val ?? -1)
+//    node = node?.next
+//}
