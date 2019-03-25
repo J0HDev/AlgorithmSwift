@@ -88,3 +88,7 @@ import Foundation
 //    print(node?.val ?? -1)
 //    node = node?.next
 //}
+
+// 13
+//var nums1 = [4,5,6,0,0,0]
+//merge(&nums1, 3, [1,2,3], 3)
