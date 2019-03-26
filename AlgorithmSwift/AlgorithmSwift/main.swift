@@ -92,3 +92,18 @@ import Foundation
 // 13
 //var nums1 = [4,5,6,0,0,0]
 //merge(&nums1, 3, [1,2,3], 3)
+
+// 14
+//var root = TreeNode(1)
+//var left = TreeNode(2)
+//var right = TreeNode(3)
+//root.left = left
+//root.right = right
+//
+//var root2 = TreeNode(1)
+//var left2 = TreeNode(2)
+//var right2 = TreeNode(12)
+//root2.left = left2
+//root2.right = right2
+//
+//print(isSameTree(root, root2))
