@@ -107,3 +107,13 @@ import Foundation
 //root2.right = right2
 //
 //print(isSameTree(root, root2))
+
+// 15.
+//var array = [2,3,1,3,5,2,1,5]
+//array.quick()
+//print(array)
+
+// 16.
+//var root = TreeNode(1)
+//
+//print(isSymmetric(root))

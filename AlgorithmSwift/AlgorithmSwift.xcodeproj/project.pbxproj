@@ -13,6 +13,8 @@
 		A833490522462E7600A59A2A /* RemoveDuplicatesFromSortedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A833490422462E7600A59A2A /* RemoveDuplicatesFromSortedList.swift */; };
 		A83349082247107500A59A2A /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83349072247107500A59A2A /* MergeSortedArray.swift */; };
 		A833491B2249D39B00A59A2A /* SameTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A833491A2249D39B00A59A2A /* SameTree.swift */; };
+		A833491F224B188400A59A2A /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A833491E224B188400A59A2A /* Sort.swift */; };
+		A8334921224B7D7200A59A2A /* SymmetricTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8334920224B7D7200A59A2A /* SymmetricTree.swift */; };
 		A881CD3A2241D61E00A3225B /* ImplementStrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = A881CD392241D61E00A3225B /* ImplementStrStr.swift */; };
 		A88C600E22429549006D1E4F /* SearchInsertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C600D22429549006D1E4F /* SearchInsertPosition.swift */; };
 		A88C601522439687006D1E4F /*  LengthofLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C601422439687006D1E4F /*  LengthofLastWord.swift */; };
@@ -43,6 +45,8 @@
 		A833490422462E7600A59A2A /* RemoveDuplicatesFromSortedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesFromSortedList.swift; sourceTree = "<group>"; };
 		A83349072247107500A59A2A /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
 		A833491A2249D39B00A59A2A /* SameTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SameTree.swift; sourceTree = "<group>"; };
+		A833491E224B188400A59A2A /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
+		A8334920224B7D7200A59A2A /* SymmetricTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymmetricTree.swift; sourceTree = "<group>"; };
 		A881CD392241D61E00A3225B /* ImplementStrStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementStrStr.swift; sourceTree = "<group>"; };
 		A88C600D22429549006D1E4F /* SearchInsertPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInsertPosition.swift; sourceTree = "<group>"; };
 		A88C601422439687006D1E4F /*  LengthofLastWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " LengthofLastWord.swift"; sourceTree = "<group>"; };
@@ -114,6 +118,22 @@
 			path = "14.Same Tree";
 			sourceTree = "<group>";
 		};
+		A833491D224B186B00A59A2A /* 15.Sort */ = {
+			isa = PBXGroup;
+			children = (
+				A833491E224B188400A59A2A /* Sort.swift */,
+			);
+			path = 15.Sort;
+			sourceTree = "<group>";
+		};
+		A8334922224B82BC00A59A2A /* 16.Symmetric Tree */ = {
+			isa = PBXGroup;
+			children = (
+				A8334920224B7D7200A59A2A /* SymmetricTree.swift */,
+			);
+			path = "16.Symmetric Tree";
+			sourceTree = "<group>";
+		};
 		A881CD382241D5F700A3225B /* 9. Implement strStr() */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +199,8 @@
 				A83349032245F51400A59A2A /* 12. Remove Duplicates From Sorted List */,
 				A833490622470FB200A59A2A /* 13. Merge Sorted Array */,
 				A833491C2249F8CA00A59A2A /* 14.Same Tree */,
+				A833491D224B186B00A59A2A /* 15.Sort */,
+				A8334922224B82BC00A59A2A /* 16.Symmetric Tree */,
 				A8A2152A2237509900C02BC5 /* main.swift */,
 			);
 			path = AlgorithmSwift;
@@ -280,12 +302,14 @@
 				A89D07DA224082160094EFA3 /* RemoveElement.swift in Sources */,
 				A8BEA7572239EADA00E2F990 /* PalindromeNumber.swift in Sources */,
 				A8A2152B2237509900C02BC5 /* main.swift in Sources */,
+				A8334921224B7D7200A59A2A /* SymmetricTree.swift in Sources */,
 				A8C0E0BB22389BBF00C0FE87 /* ReverseInteger.swift in Sources */,
 				A833490522462E7600A59A2A /* RemoveDuplicatesFromSortedList.swift in Sources */,
 				A823A201223B40BD00B67A08 /* RomanToInteger.swift in Sources */,
 				A83349082247107500A59A2A /* MergeSortedArray.swift in Sources */,
 				A823A2C3223F321700B67A08 /* MergeTwoSortedLists.swift in Sources */,
 				B2C19C76223DEBF500074B15 /* ValidParentheses.swift in Sources */,
+				A833491F224B188400A59A2A /* Sort.swift in Sources */,
 				A881CD3A2241D61E00A3225B /* ImplementStrStr.swift in Sources */,
 				A88C601522439687006D1E4F /*  LengthofLastWord.swift in Sources */,
 			);
