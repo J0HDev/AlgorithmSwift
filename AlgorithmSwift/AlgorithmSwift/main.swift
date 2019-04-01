@@ -119,10 +119,14 @@ import Foundation
 //print(isSymmetric(root))
 
 // 15
-var root = TreeNode(1)
-var left = TreeNode(2)
-var right = TreeNode(3)
-root.left = left
-root.right = right
+//var root = TreeNode(1)
+//var left = TreeNode(2)
+//var right = TreeNode(3)
+//root.left = left
+//root.right = right
+//
+//print(maxDepth(root))
 
-print(maxDepth(root))
+
+// 16.
+print(climbStairs(6))
