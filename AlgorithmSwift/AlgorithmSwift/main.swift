@@ -129,4 +129,80 @@ import Foundation
 
 
 // 16.
-print(climbStairs(6))
+//print(climbStairs(6))
+
+
+// 14
+//func levelOrderBottom(_ root: TreeNode?) -> [[Int]] {
+//    guard let root = root else { return [[Int]]() }
+//
+//    var numbers = [[Int]]()
+//    var line = [Int]()
+//
+//    func toArray(_ left: TreeNode?, _ right: TreeNode?) -> (left: Int?, right: Int?) {
+//        if left == nil && right == nil { return (nil, nil) }
+//
+//        let a1 = toArray(left?.left, left?.right)
+//        let a2 = toArray(right?.left, right?.right)
+//
+//        var line = [Int]()
+//
+//        if let a1left = a1.left {
+//            line.append(a1left)
+//        }
+//        if let a1right = a1.right {
+//            line.append(a1right)
+//        }
+//        if let a2left = a2.left {
+//            line.append(a2left)
+//        }
+//        if let a2right = a2.right {
+//            line.append(a2right)
+//        }
+//        if line.count > 0 {
+//            numbers.append(line)
+//        }
+//
+//        return (left?.val, right?.val)
+//    }
+//
+//    let a = toArray(root.left, root.right)
+//    if let left = a.left {
+//        line.append(left)
+//    }
+//    if let right = a.right {
+//        line.append(right)
+//    }
+//    if line.count > 0 {
+//        numbers.append(line)
+//    }
+//    numbers.append([root.val])
+//
+//    return numbers
+//}
+
+
+
+func printBinaryTree(_ root: TreeNode?) {
+    if root == nil { return }
+    print(root?.val ?? "nil")
+    printBinaryTree(root?.left)
+    printBinaryTree(root?.right)
+}
+
+var root        = TreeNode(0)
+var left        = TreeNode(2)
+var right       = TreeNode(4)
+var left_left   = TreeNode(1)
+var left_right  = TreeNode(3)
+var right_left  = TreeNode(3)
+var right_right = TreeNode(-1)
+
+root.left = left
+root.right = right
+left.left = left_left
+left.right = left_right
+right.left = right_left
+right.right = right_right
+
+print(levelOrderBottom(root))

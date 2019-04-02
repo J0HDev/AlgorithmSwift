@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A81610E9225306CF00F68869 /* BinaryTreeLevelOrderTraversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81610E8225306CF00F68869 /* BinaryTreeLevelOrderTraversal.swift */; };
 		A82170B5224CCC2D00202764 /* MaximumDepthOfBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82170B4224CCC2D00202764 /* MaximumDepthOfBinaryTree.swift */; };
 		A823A201223B40BD00B67A08 /* RomanToInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A823A200223B40BD00B67A08 /* RomanToInteger.swift */; };
 		A823A2C0223CC5CB00B67A08 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = A823A2BF223CC5CB00B67A08 /* LongestCommonPrefix.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A81610E8225306CF00F68869 /* BinaryTreeLevelOrderTraversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeLevelOrderTraversal.swift; sourceTree = "<group>"; };
 		A82170B4224CCC2D00202764 /* MaximumDepthOfBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumDepthOfBinaryTree.swift; sourceTree = "<group>"; };
 		A823A200223B40BD00B67A08 /* RomanToInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToInteger.swift; sourceTree = "<group>"; };
 		A823A2BF223CC5CB00B67A08 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A81610EA22530D4C00F68869 /* 19.Binary Tree Level Order Traversal */ = {
+			isa = PBXGroup;
+			children = (
+				A81610E8225306CF00F68869 /* BinaryTreeLevelOrderTraversal.swift */,
+			);
+			path = "19.Binary Tree Level Order Traversal";
+			sourceTree = "<group>";
+		};
 		A82170B6224CD4E000202764 /* 17.Maximum Depth of Binary Tree */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,6 +233,7 @@
 				A8334922224B82BC00A59A2A /* 16.Symmetric Tree */,
 				A82170B6224CD4E000202764 /* 17.Maximum Depth of Binary Tree */,
 				A82738172251AF6E00518882 /* 18.Climbing Stairs */,
+				A81610EA22530D4C00F68869 /* 19.Binary Tree Level Order Traversal */,
 				A8A2152A2237509900C02BC5 /* main.swift */,
 			);
 			path = AlgorithmSwift;
@@ -336,6 +347,7 @@
 				A833491F224B188400A59A2A /* Sort.swift in Sources */,
 				A881CD3A2241D61E00A3225B /* ImplementStrStr.swift in Sources */,
 				A88C601522439687006D1E4F /*  LengthofLastWord.swift in Sources */,
+				A81610E9225306CF00F68869 /* BinaryTreeLevelOrderTraversal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
