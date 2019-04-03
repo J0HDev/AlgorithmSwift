@@ -183,26 +183,43 @@ import Foundation
 
 
 
-func printBinaryTree(_ root: TreeNode?) {
-    if root == nil { return }
-    print(root?.val ?? "nil")
-    printBinaryTree(root?.left)
-    printBinaryTree(root?.right)
-}
+//func printBinaryTree(_ root: TreeNode?) {
+//    if root == nil { return }
+//    print(root?.val ?? "nil")
+//    printBinaryTree(root?.left)
+//    printBinaryTree(root?.right)
+//}
+//
+//var root        = TreeNode(0)
+//var left        = TreeNode(2)
+//var right       = TreeNode(4)
+//var left_left   = TreeNode(1)
+//var left_right  = TreeNode(3)
+//var right_left  = TreeNode(3)
+//var right_right = TreeNode(-1)
+//
+//root.left = left
+//root.right = right
+//left.left = left_left
+//left.right = left_right
+//right.left = right_left
+//right.right = right_right
+//
+//print(levelOrderBottom(root))
 
-var root        = TreeNode(0)
-var left        = TreeNode(2)
-var right       = TreeNode(4)
-var left_left   = TreeNode(1)
-var left_right  = TreeNode(3)
-var right_left  = TreeNode(3)
-var right_right = TreeNode(-1)
 
-root.left = left
-root.right = right
-left.left = left_left
-left.right = left_right
-right.left = right_left
-right.right = right_right
+// 15.
+//let n1 = ListNode(1)
+//let n2 = ListNode(2)
+//let n3 = ListNode(3)
+//let n4 = ListNode(4)
+//let n5 = ListNode(5)
+//
+//n1.next = n2
+//n2.next = n3
+//n3.next = n4
+//n4.next = n5
+//n5.next = n2
+//
+//print(hasCycle(head: n1))
 
-print(levelOrderBottom(root))
