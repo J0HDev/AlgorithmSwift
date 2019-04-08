@@ -23,6 +23,7 @@
 		A88C601522439687006D1E4F /*  LengthofLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C601422439687006D1E4F /*  LengthofLastWord.swift */; };
 		A895E93A22545FF500920620 /* LinkedListCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A895E93922545FF500920620 /* LinkedListCycle.swift */; };
 		A895E9402255A11A00920620 /* MinStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A895E93F2255A11A00920620 /* MinStack.swift */; };
+		A895E943225B4A6600920620 /* TwoSum2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A895E942225B4A6600920620 /* TwoSum2.swift */; };
 		A89D07DA224082160094EFA3 /* RemoveElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D07D9224082160094EFA3 /* RemoveElement.swift */; };
 		A8A2152B2237509900C02BC5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A2152A2237509900C02BC5 /* main.swift */; };
 		A8A215332237522100C02BC5 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A215322237522100C02BC5 /* TwoSum.swift */; };
@@ -60,6 +61,7 @@
 		A88C601422439687006D1E4F /*  LengthofLastWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " LengthofLastWord.swift"; sourceTree = "<group>"; };
 		A895E93922545FF500920620 /* LinkedListCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListCycle.swift; sourceTree = "<group>"; };
 		A895E93F2255A11A00920620 /* MinStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinStack.swift; sourceTree = "<group>"; };
+		A895E942225B4A6600920620 /* TwoSum2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum2.swift; sourceTree = "<group>"; };
 		A89D07D9224082160094EFA3 /* RemoveElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveElement.swift; sourceTree = "<group>"; };
 		A8A215272237509900C02BC5 /* AlgorithmSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8A2152A2237509900C02BC5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -208,6 +210,14 @@
 			path = "21.Min Stack";
 			sourceTree = "<group>";
 		};
+		A895E941225B4A4D00920620 /* 22. Two Sum 2 */ = {
+			isa = PBXGroup;
+			children = (
+				A895E942225B4A6600920620 /* TwoSum2.swift */,
+			);
+			path = "22. Two Sum 2";
+			sourceTree = "<group>";
+		};
 		A89D07D7224081CC0094EFA3 /* 8. Remove Element */ = {
 			isa = PBXGroup;
 			children = (
@@ -256,6 +266,7 @@
 				A81610EA22530D4C00F68869 /* 19.Binary Tree Level Order Traversal */,
 				A895E93822545FDF00920620 /* 20.Linked List Cycle */,
 				A895E93E2255A0F400920620 /* 21.Min Stack */,
+				A895E941225B4A4D00920620 /* 22. Two Sum 2 */,
 				A8A2152A2237509900C02BC5 /* main.swift */,
 			);
 			path = AlgorithmSwift;
@@ -368,6 +379,7 @@
 				A823A2C3223F321700B67A08 /* MergeTwoSortedLists.swift in Sources */,
 				B2C19C76223DEBF500074B15 /* ValidParentheses.swift in Sources */,
 				A833491F224B188400A59A2A /* Sort.swift in Sources */,
+				A895E943225B4A6600920620 /* TwoSum2.swift in Sources */,
 				A881CD3A2241D61E00A3225B /* ImplementStrStr.swift in Sources */,
 				A88C601522439687006D1E4F /*  LengthofLastWord.swift in Sources */,
 				A895E93A22545FF500920620 /* LinkedListCycle.swift in Sources */,

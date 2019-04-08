@@ -224,13 +224,18 @@ import Foundation
 //print(hasCycle(head: n1))
 
 // 16.
-let stack = MinStack()
-stack.push(4)
-stack.push(5)
-stack.push(-2)
-stack.push(1)
-stack.pop()
-stack.pop()
+//let stack = MinStack()
+//stack.push(4)
+//stack.push(5)
+//stack.push(-2)
+//stack.push(1)
+//stack.pop()
+//stack.pop()
+//
+//print(stack.top())
+//print(stack.getMin())
 
-print(stack.top())
-print(stack.getMin())
+
+// 22.
+let numbers = [2, 4 , 5 , 6]
+print(twoSum2(numbers, 10))
