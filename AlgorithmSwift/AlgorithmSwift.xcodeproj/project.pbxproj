@@ -29,6 +29,7 @@
 		A8A215332237522100C02BC5 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A215322237522100C02BC5 /* TwoSum.swift */; };
 		A8BEA7572239EADA00E2F990 /* PalindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BEA7562239EADA00E2F990 /* PalindromeNumber.swift */; };
 		A8C0E0BB22389BBF00C0FE87 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C0E0BA22389BBF00C0FE87 /* ReverseInteger.swift */; };
+		A8C901F3225D947200253EF6 /* RemoveLinkedListElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C901F2225D947200253EF6 /* RemoveLinkedListElements.swift */; };
 		B2C19C76223DEBF500074B15 /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C19C75223DEBF500074B15 /* ValidParentheses.swift */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +69,7 @@
 		A8A215322237522100C02BC5 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		A8BEA7562239EADA00E2F990 /* PalindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumber.swift; sourceTree = "<group>"; };
 		A8C0E0BA22389BBF00C0FE87 /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
+		A8C901F2225D947200253EF6 /* RemoveLinkedListElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveLinkedListElements.swift; sourceTree = "<group>"; };
 		B2C19C75223DEBF500074B15 /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -267,6 +269,7 @@
 				A895E93822545FDF00920620 /* 20.Linked List Cycle */,
 				A895E93E2255A0F400920620 /* 21.Min Stack */,
 				A895E941225B4A4D00920620 /* 22. Two Sum 2 */,
+				A8C901F1225D93D100253EF6 /* 23.Remove Linked List Elements */,
 				A8A2152A2237509900C02BC5 /* main.swift */,
 			);
 			path = AlgorithmSwift;
@@ -294,6 +297,14 @@
 				A8C0E0BA22389BBF00C0FE87 /* ReverseInteger.swift */,
 			);
 			path = "2. Reverse Integer";
+			sourceTree = "<group>";
+		};
+		A8C901F1225D93D100253EF6 /* 23.Remove Linked List Elements */ = {
+			isa = PBXGroup;
+			children = (
+				A8C901F2225D947200253EF6 /* RemoveLinkedListElements.swift */,
+			);
+			path = "23.Remove Linked List Elements";
 			sourceTree = "<group>";
 		};
 		B2C19C74223DEBDC00074B15 /* 6. Valid Parentheses */ = {
@@ -368,6 +379,7 @@
 				A89D07DA224082160094EFA3 /* RemoveElement.swift in Sources */,
 				A8BEA7572239EADA00E2F990 /* PalindromeNumber.swift in Sources */,
 				A82738162251AB4B00518882 /* ClimbingStairs.swift in Sources */,
+				A8C901F3225D947200253EF6 /* RemoveLinkedListElements.swift in Sources */,
 				A8A2152B2237509900C02BC5 /* main.swift in Sources */,
 				A8334921224B7D7200A59A2A /* SymmetricTree.swift in Sources */,
 				A82170B5224CCC2D00202764 /* MaximumDepthOfBinaryTree.swift in Sources */,
