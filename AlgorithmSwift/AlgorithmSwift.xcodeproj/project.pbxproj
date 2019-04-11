@@ -30,6 +30,8 @@
 		A8BEA7572239EADA00E2F990 /* PalindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BEA7562239EADA00E2F990 /* PalindromeNumber.swift */; };
 		A8C0E0BB22389BBF00C0FE87 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C0E0BA22389BBF00C0FE87 /* ReverseInteger.swift */; };
 		A8C901F3225D947200253EF6 /* RemoveLinkedListElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C901F2225D947200253EF6 /* RemoveLinkedListElements.swift */; };
+		A8C901F6225EE3C000253EF6 /* ExcelSheetColumnTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C901F5225EE3C000253EF6 /* ExcelSheetColumnTitle.swift */; };
+		A8C901F9225F249400253EF6 /* HashTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C901F8225F249400253EF6 /* HashTable.swift */; };
 		B2C19C76223DEBF500074B15 /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C19C75223DEBF500074B15 /* ValidParentheses.swift */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +72,8 @@
 		A8BEA7562239EADA00E2F990 /* PalindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumber.swift; sourceTree = "<group>"; };
 		A8C0E0BA22389BBF00C0FE87 /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
 		A8C901F2225D947200253EF6 /* RemoveLinkedListElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveLinkedListElements.swift; sourceTree = "<group>"; };
+		A8C901F5225EE3C000253EF6 /* ExcelSheetColumnTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelSheetColumnTitle.swift; sourceTree = "<group>"; };
+		A8C901F8225F249400253EF6 /* HashTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashTable.swift; sourceTree = "<group>"; };
 		B2C19C75223DEBF500074B15 /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -232,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				A8A215292237509900C02BC5 /* AlgorithmSwift */,
+				A8A2152A2237509900C02BC5 /* main.swift */,
 				A8A215282237509900C02BC5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -270,7 +275,8 @@
 				A895E93E2255A0F400920620 /* 21.Min Stack */,
 				A895E941225B4A4D00920620 /* 22. Two Sum 2 */,
 				A8C901F1225D93D100253EF6 /* 23.Remove Linked List Elements */,
-				A8A2152A2237509900C02BC5 /* main.swift */,
+				A8C901F4225EE37800253EF6 /* 24.Excel Sheet Column Title */,
+				A8C901F7225F23ED00253EF6 /* 25.Hash Table */,
 			);
 			path = AlgorithmSwift;
 			sourceTree = "<group>";
@@ -305,6 +311,22 @@
 				A8C901F2225D947200253EF6 /* RemoveLinkedListElements.swift */,
 			);
 			path = "23.Remove Linked List Elements";
+			sourceTree = "<group>";
+		};
+		A8C901F4225EE37800253EF6 /* 24.Excel Sheet Column Title */ = {
+			isa = PBXGroup;
+			children = (
+				A8C901F5225EE3C000253EF6 /* ExcelSheetColumnTitle.swift */,
+			);
+			path = "24.Excel Sheet Column Title";
+			sourceTree = "<group>";
+		};
+		A8C901F7225F23ED00253EF6 /* 25.Hash Table */ = {
+			isa = PBXGroup;
+			children = (
+				A8C901F8225F249400253EF6 /* HashTable.swift */,
+			);
+			path = "25.Hash Table";
 			sourceTree = "<group>";
 		};
 		B2C19C74223DEBDC00074B15 /* 6. Valid Parentheses */ = {
@@ -386,6 +408,8 @@
 				A8C0E0BB22389BBF00C0FE87 /* ReverseInteger.swift in Sources */,
 				A833490522462E7600A59A2A /* RemoveDuplicatesFromSortedList.swift in Sources */,
 				A823A201223B40BD00B67A08 /* RomanToInteger.swift in Sources */,
+				A8C901F9225F249400253EF6 /* HashTable.swift in Sources */,
+				A8C901F6225EE3C000253EF6 /* ExcelSheetColumnTitle.swift in Sources */,
 				A895E9402255A11A00920620 /* MinStack.swift in Sources */,
 				A83349082247107500A59A2A /* MergeSortedArray.swift in Sources */,
 				A823A2C3223F321700B67A08 /* MergeTwoSortedLists.swift in Sources */,
