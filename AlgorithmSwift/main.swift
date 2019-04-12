@@ -237,8 +237,10 @@ import Foundation
 
 
 // 22.
-let numbers = [2, 4 , 5 , 6]
-print(twoSum2(numbers, 10))
+let numbers = [2, 4 , 5 , 6, 4, 6, 6, 6]
+//print(twoSum2(numbers, 10))
 
 // 23.
-print(convertToTitle(28))
+//print(convertToTitle(28))
+
+print(majorityElement(numbers))
