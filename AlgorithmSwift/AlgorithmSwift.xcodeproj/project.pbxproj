@@ -33,6 +33,7 @@
 		A8C901F6225EE3C000253EF6 /* ExcelSheetColumnTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C901F5225EE3C000253EF6 /* ExcelSheetColumnTitle.swift */; };
 		A8C901F9225F249400253EF6 /* HashTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C901F8225F249400253EF6 /* HashTable.swift */; };
 		A8C901FC226035CC00253EF6 /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C901FB226035CC00253EF6 /* MajorityElement.swift */; };
+		A8EA26FB227E7F6200F58C35 /* DesignCircularDeque.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EA26FA227E7F6200F58C35 /* DesignCircularDeque.swift */; };
 		B2C19C76223DEBF500074B15 /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C19C75223DEBF500074B15 /* ValidParentheses.swift */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +77,7 @@
 		A8C901F5225EE3C000253EF6 /* ExcelSheetColumnTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelSheetColumnTitle.swift; sourceTree = "<group>"; };
 		A8C901F8225F249400253EF6 /* HashTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashTable.swift; sourceTree = "<group>"; };
 		A8C901FB226035CC00253EF6 /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
+		A8EA26FA227E7F6200F58C35 /* DesignCircularDeque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCircularDeque.swift; sourceTree = "<group>"; };
 		B2C19C75223DEBF500074B15 /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -280,6 +282,7 @@
 				A8C901F4225EE37800253EF6 /* 24.Excel Sheet Column Title */,
 				A8C901F7225F23ED00253EF6 /* 25.Hash Table */,
 				A8C901FA2260357200253EF6 /* 26.Majority Element */,
+				A8EA26FC227EDAAB00F58C35 /* 27.Design Circular Deque */,
 			);
 			path = AlgorithmSwift;
 			sourceTree = "<group>";
@@ -338,6 +341,14 @@
 				A8C901FB226035CC00253EF6 /* MajorityElement.swift */,
 			);
 			path = "26.Majority Element";
+			sourceTree = "<group>";
+		};
+		A8EA26FC227EDAAB00F58C35 /* 27.Design Circular Deque */ = {
+			isa = PBXGroup;
+			children = (
+				A8EA26FA227E7F6200F58C35 /* DesignCircularDeque.swift */,
+			);
+			path = "27.Design Circular Deque";
 			sourceTree = "<group>";
 		};
 		B2C19C74223DEBDC00074B15 /* 6. Valid Parentheses */ = {
@@ -424,6 +435,7 @@
 				A8C901F6225EE3C000253EF6 /* ExcelSheetColumnTitle.swift in Sources */,
 				A895E9402255A11A00920620 /* MinStack.swift in Sources */,
 				A83349082247107500A59A2A /* MergeSortedArray.swift in Sources */,
+				A8EA26FB227E7F6200F58C35 /* DesignCircularDeque.swift in Sources */,
 				A823A2C3223F321700B67A08 /* MergeTwoSortedLists.swift in Sources */,
 				B2C19C76223DEBF500074B15 /* ValidParentheses.swift in Sources */,
 				A833491F224B188400A59A2A /* Sort.swift in Sources */,
@@ -556,10 +568,12 @@
 		A8A2152F2237509900C02BC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 68MBG4HJ8F;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -567,10 +581,12 @@
 		A8A215302237509900C02BC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 68MBG4HJ8F;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;

@@ -237,10 +237,23 @@ import Foundation
 
 
 // 22.
-let numbers = [2, 4 , 5 , 6, 4, 6, 6, 6]
+//let numbers = [2, 4 , 5 , 6, 4, 6, 6, 6]
 //print(twoSum2(numbers, 10))
 
 // 23.
 //print(convertToTitle(28))
 
-print(majorityElement(numbers))
+// 24.
+//print(majorityElement(numbers))
+
+// 25.
+//var deque = MyCircularDeque(3)
+//print(deque.insertLast(1))
+//print(deque.insertLast(2))
+//print(deque.insertFront(3))
+//print(deque.insertFront(4))
+//print(deque.getRear())
+//print(deque.isFull())
+//print(deque.deleteLast())
+//print(deque.insertFront(4))
+//print(deque.getFront())
